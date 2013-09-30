@@ -13,7 +13,7 @@
 
 		db_query("BEGIN");
 
-		db_query("DELETE FROM ttrss_feedbrowser_cache");
+		db_query("TRUNCATE TABLE ttrss_feedbrowser_cache");
 
 		$count = 0;
 
